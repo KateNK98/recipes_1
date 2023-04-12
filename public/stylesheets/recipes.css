@@ -1,0 +1,109 @@
+body {
+    background-color: #C4919E;
+}
+
+table {
+    width: 100%;
+}
+
+.card-header, .card-footer {
+    background-color: #7C4A78;
+}
+
+.card-body, #img {
+    background-color: #936D90;
+}
+
+.card {
+    box-shadow: 20px 20px 10px #A66375;
+    border: 1px solid black;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 20px 5px;
+    background-color: #D8B1A0;
+}
+
+.button:hover {
+    background-color: #D8B1A0;
+    border: 1px solid black;
+}
+
+.button1 {
+    border: 1px solid black;
+    border-radius: 20px 5px;
+    background-color: #936D90;
+}
+
+.button1:hover {
+    background-color: #936D90;
+    border: 1px solid black;
+}
+
+.button2 {
+    border: 1px solid black;
+    border-radius: 20px 5px;
+    background-color: #936D90;
+}
+
+.button2:hover {
+    background-color: #936D90;
+    border: 1px solid black;
+}
+
+.modal-content {
+    background-color: #E4C2CB;
+}
+
+.form-control {
+    background-color: #C4919E;
+}
+
+.form-control:focus {
+    background-color: #F0E1E5;
+}
+
+
+#logout, #text {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Marck Script', cursive;
+    letter-spacing: 1px;
+    height: 50%;
+    padding: 13px 20px 13px;
+    margin: 3%;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 20px 10px;
+}
+  
+#logout:after, #text:after {
+    content: "";
+    background-color: #D8B1A0;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+    border-radius: 20px 5px;
+}
+  
+#logout:hover:after, #text:hover:after {
+    top: 0px;
+    left: 0px;
+}
+  
+@media (min-width: 768px) {
+    #logout {
+      padding: 13px 50px 13px;
+    }
+}
